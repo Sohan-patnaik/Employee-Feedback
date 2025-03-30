@@ -1,0 +1,35 @@
+@import "tailwindcss";
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #ffffff;
+  background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
+}
+
+.dashboard-card {
+  @apply bg-white/10 backdrop-blur-md p-6 shadow-lg rounded-xl hover:shadow-xl transition-all text-white;
+}
+
+/* Card Title */
+.dashboard-title {
+  @apply text-xl font-semibold;
+}
+
+/* Card Text */
+.dashboard-text {
+  @apply text-gray-300;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
